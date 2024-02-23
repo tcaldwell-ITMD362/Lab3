@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  font-family:"Roboto Slab", Helvetica, serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -203,7 +204,77 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+h1{
+  font-family: "DM Serif Display","Roboto Slab", serif;
+  text-align: center;
+  font-size: 2.441em;
+  line-height: 1em;
+  color: #595959;
+  
+}
+p{
+  text-align: center;
+  color: #747474;
+}
 
+
+body{
+  background-color: #c7c7c7;
+}
+#content form{
+  background-color: #f1f1f1;
+  padding: 5% 10%;
+  margin-top: 8vw;
+  border-radius: 20px;
+}
+
+#content{
+  display: flex;
+  justify-content: center;
+}
+ol{
+  padding-top: 7%;
+}
+
+#input-email{
+  padding: 0% 15%;
+ 
+}
+#email{
+  width: 97%;
+  padding: 10px;
+  border: inset;
+  color: #747474;
+}
+
+
+#input-age-verification{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+#age-verification{
+  width: 50px;
+  border: none;
+}
+
+#input-submit{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+#submit{
+  border: none;
+  background-color: #ffffff;
+  padding: 3% 10%;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 50%;
+}
+#submit:hover{
+    background-color: #afafaf;
+    color: white;
+}
 
 /* ===== STATE STYLES ======= */
 
